@@ -1,0 +1,22 @@
+<resources>
+    <application name="WearableConnectionSample">
+        <serviceProfile
+            name="ProviderService"
+            id="/quki/sample"
+            role="consumer"
+            serviceImpl="com.quki.sample.wearableconnectionsample.service.AccessoryService"
+            serviceLimit="any"
+            serviceTimeout="10"
+            version="1.0">
+            <supportedTransports>
+                <transport type="TRANSPORT_BT" />
+            </supportedTransports>
+            <serviceChannel
+                dataRate="low"
+                id="101"
+                priority="high"
+                reliability="enable" />
+        </serviceProfile>
+    </application>
+</resources>
+
