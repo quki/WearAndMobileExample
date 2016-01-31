@@ -20,4 +20,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/requestBtn"
         android:text="SEND" />
+    <TextView
+        android:id="@+id/statusTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:text="제대로 값이 넘어갔나?" />
 </RelativeLayout>

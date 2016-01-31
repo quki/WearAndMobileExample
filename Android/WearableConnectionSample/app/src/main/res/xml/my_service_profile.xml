@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <application name="WearableConnectionSample">
         <serviceProfile
-            name="ProviderService"
+            name="sample"
             id="/quki/sample"
             role="consumer"
             serviceImpl="com.quki.sample.wearableconnectionsample.service.AccessoryService"
